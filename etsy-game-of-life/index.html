@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>A Game of Life</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="life.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <button id="rand">
+      <div class="text">Randomize</div>
+      <div class="icon"></div>
+    </button>
+    <div id="warn">
+      <div class="title">Everything&apos;s Shiny Captain!</div>
+      <div class="text">
+        &hellip;but this Game of Life won't play on a <strong>file: URL</strong>. You need to
+        load it from the little http server that I included. Try running
+        <code>./bin/http</code> from the project directory.
+      </div>
+    </div>
+    <div id="view">
+    </div>
+    <script src="lib/three.min.js"></script>
+    <script src="life.js"></script>
+  </body>
+</html>

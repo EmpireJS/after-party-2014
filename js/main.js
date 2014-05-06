@@ -8,7 +8,11 @@ $(function () {
     $('#coc').show();
 
     $('body')
-      .append('<section id="put-stuff-here"></section>');
+      .append('<section id="put-stuff-here">' +
+                 '<div id="view">' +
+                 '</div>' +
+                 '<script src="etsy-game-of-life/life.js"></script>' +
+              '</section>');
 
     setTimeout(function () {
       $('#coc').hide();
