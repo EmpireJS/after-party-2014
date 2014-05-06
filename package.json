@@ -1,0 +1,22 @@
+{
+  "name": "after-party-2014",
+  "version": "0.1.0",
+  "description": "EmpireJS 2014 After Party!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "say \"LOL\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EmpireJS/after-party-2014.git"
+  },
+  "keywords": [
+    "empirejs"
+  ],
+  "author": "EmpireJS <us@empirejs.org>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/EmpireJS/after-party-2014/issues"
+  },
+  "homepage": "https://github.com/EmpireJS/after-party-2014"
+}
